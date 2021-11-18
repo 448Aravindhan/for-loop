@@ -1,0 +1,16 @@
+string=input('enter a string:')
+string.lower()
+v='a,e,i,o,u'
+for i in string:
+	if i in v:
+		print('X',end=' ')
+	else:
+		print(i,end=' ')
+
+Algorithm:
+#give a input from user
+#input transfer for lower case
+#vowel letters=a, e, I, o, u
+#for loop use for read string
+#if string letter available in v, replace X on the place
+#if no vowels print i.
